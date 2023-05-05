@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  height: 7vh;
+  align-items: center;
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+body nav ul input[type=button] {
+  margin-right: 25px;
+  text-transform: uppercase;
+  padding: 8px 22px;
+  border-radius: 50px;
+  border: none;
+  color: #ffffff;
+  background-color: #e04387;
+  cursor: pointer;
+  font-weight: 500;
+}
+body nav ul input[type=button]:active {
+  transform: scale(1.1);
+}
+body nav ul li {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body nav ul li a {
+  margin-right: 15px;
+  color: #e04387;
+  text-decoration: none;
+}
+body section.home {
+  background-image: url(../img/background-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body section.home .content__action {
+  margin: 30px;
+}
+body section.home .content__action h1 {
+  font-size: 48px;
+  max-width: 480px;
+  color: #ffffff;
+}
+body section.home .content__action h1 span {
+  color: #e04387;
+}
+body section.home .content__action p {
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 580px;
+  margin: 10px 0;
+}
+body section.home .content__action input[type=button] {
+  margin-right: 25px;
+  text-transform: uppercase;
+  padding: 8px 77px;
+  border-radius: 50px;
+  border: none;
+  color: #ffffff;
+  background-color: #e04387;
+  cursor: pointer;
+  font-weight: 500;
+}
+body section.home .content__action input[type=button]:active {
+  transform: scale(1.1);
+}
+body section.home .content__media {
+  margin: 30px;
+}
+body section.home .content__media ul {
+  list-style: none;
+}
+body section.home .content__media ul li {
+  width: 40px;
+  height: 40px;
+  background-color: #e04387;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  cursor: pointer;
+}
+body section.home .content__media ul li i {
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
